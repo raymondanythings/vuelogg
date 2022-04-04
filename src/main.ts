@@ -23,5 +23,6 @@ const markedMixin = {
 
 // import "highlight.js/styles/monokai.css";
 import "./static/css/reset.css";
+import "./static/css/index.css";
 
 createApp(App).use(store).use(router).mixin(markedMixin).mount("#app");
