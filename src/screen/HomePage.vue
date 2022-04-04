@@ -3,6 +3,7 @@
     <section>
       <VBoard v-for="item in items" :key="item.id" :item="item"></VBoard>
     </section>
+    <div></div>
   </main>
 </template>
 
