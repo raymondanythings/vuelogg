@@ -1,0 +1,19 @@
+{
+  "name": "vuelog",
+  "version": "1.0.0",
+  "description": "global package manager",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev:server" : "yarn --cwd backend/ start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondanythings/vuelogg.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondanythings/vuelogg/issues"
+  },
+  "homepage": "https://github.com/raymondanythings/vuelogg#readme"
+}
