@@ -10,13 +10,16 @@ import {
   ParseIntPipe,
   Patch,
   Post,
+  UseGuards,
   UsePipes,
   ValidationPipe,
 } from '@nestjs/common';
 import { BoardStatusValidationPipe } from './pipes/board-status-validation.pipe';
 import { Board } from './boards.entity';
+import { AuthGuard } from '@nestjs/passport';
 
 @Controller('boards') // express router 개념
+@UseGuards(AuthGuard())
 export class BoardsController {
   constructor(private boardsService: BoardsService) {}
 
