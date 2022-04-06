@@ -5,7 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "dev:server": "yarn --cwd backend/ start:dev",
-    "dev:front" : "yarn --cwd front/ serve"
+    "dev:front": "yarn --cwd front/ serve"
   },
   "repository": {
     "type": "git",
