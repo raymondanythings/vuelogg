@@ -1,10 +1,10 @@
 module.exports = {
   type: 'postgres',
-  host: process.env.DB_HOST,
-  port: process.env.DB_PORT,
-  username: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_SCHEMA,
+  host: process.env.RDS_HOST,
+  port: process.env.RDS_PORT,
+  username: process.env.RDS_USERNAME,
+  password: process.env.RDS_PASSWORD,
+  database: process.env.RDS_SCHEMA,
   entities: ['dist/**/*.entity.{js,ts}'],
   synchronize: true,
 };
